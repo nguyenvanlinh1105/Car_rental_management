@@ -1,22 +1,298 @@
 [
   {
-    "ContainingType": "THUEXERE.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "ContainingType": "THUEXERE.Controllers.DanhMucXeController",
+    "Method": "AddDanhMucXe",
+    "RelativePath": "api/DanhMucXe/AddDanhMucXe",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "danhMucXe",
+        "Type": "THUEXERE.ViewModel.DanhMucXeVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.DanhMucXeController",
+    "Method": "GetDsDanhMucByTenXe",
+    "RelativePath": "api/DanhMucXe/GetDsDanhMucByTenXe",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TenXe",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.DanhMucXeController",
+    "Method": "GetDSDanhMucXe",
+    "RelativePath": "api/DanhMucXe/GetDsDanhMucXe",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.DanhMucXeController",
+    "Method": "GetDsDanhMucXeById",
+    "RelativePath": "api/DanhMucXe/GetDsDanhMucXeById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[THUEXERE.WeatherForecast, THUEXERE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "IdDanhMuc",
+        "Type": "System.String",
+        "IsRequired": false
       }
-    ]
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.DanhMucXeController",
+    "Method": "GetDsXeByIdDanhMucXe",
+    "RelativePath": "api/DanhMucXe/GetDsXeByIdDanhMucXe",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idDanhMuc",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.DanhMucXeController",
+    "Method": "UpdateDanhMucXe",
+    "RelativePath": "api/DanhMucXe/UpdateInfoDanhMucXe",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "danhMucXe",
+        "Type": "THUEXERE.ViewModel.DanhMucXeVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.LoaiXeController",
+    "Method": "GetDSLoaiXe",
+    "RelativePath": "api/LoaiXe",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.LoaiXeController",
+    "Method": "AddLoaiXe",
+    "RelativePath": "api/LoaiXe/AddLoaiXe",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loaiXe",
+        "Type": "THUEXERE.ViewModel.LoaiXeVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.LoaiXeController",
+    "Method": "GetDsXeByIdLoaiXe",
+    "RelativePath": "api/LoaiXe/GetDsXeByIdLoaiXe",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdLoaiXe",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.LoaiXeController",
+    "Method": "GetLoaiXeById",
+    "RelativePath": "api/LoaiXe/GetLoaiXeByID/{IdLoaiXe}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdLoaiXe",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.LoaiXeController",
+    "Method": "GetLoaiXeByName",
+    "RelativePath": "api/LoaiXe/GetLoaiXeByLoaiXe",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tenloaiXe",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.LoaiXeController",
+    "Method": "UpdateInfoLoaiXe",
+    "RelativePath": "api/LoaiXe/UpdateInfoLoaiXe",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loaiXe",
+        "Type": "WEBAPI.Data.LoaiXe",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.MauXeController",
+    "Method": "AddMauXe",
+    "RelativePath": "api/MauXe/AddMauXe",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mauXe",
+        "Type": "THUEXERE.ViewModel.MauXeVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.MauXeController",
+    "Method": "GetDsMauXe",
+    "RelativePath": "api/MauXe/GetDsMauXe",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.MauXeController",
+    "Method": "UpdateInfoMauXe",
+    "RelativePath": "api/MauXe/UpdateInfoMauXe",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mauXe",
+        "Type": "THUEXERE.ViewModel.MauXeVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.XeController",
+    "Method": "AddInfoXe",
+    "RelativePath": "api/Xe/AddInfoXe",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Xe",
+        "Type": "THUEXERE.ViewModel.XeVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.XeController",
+    "Method": "GetDSXe",
+    "RelativePath": "api/Xe/GetDsXe",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.XeController",
+    "Method": "GetInfoXeByMaXe",
+    "RelativePath": "api/Xe/GetInfoXeByMaXe",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MaXe",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.XeController",
+    "Method": "GetInfoXeByTenXe",
+    "RelativePath": "api/Xe/GetInfoXeByTenXe",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TenXe",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.XeController",
+    "Method": "UpdateInfoXe",
+    "RelativePath": "api/Xe/UpdateInfoXe",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "XeVm",
+        "Type": "THUEXERE.ViewModel.XeVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

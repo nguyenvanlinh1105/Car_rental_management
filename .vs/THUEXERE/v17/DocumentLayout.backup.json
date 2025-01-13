@@ -3,16 +3,76 @@
   "WorkspaceRootPath": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|d:\\124_nam_2024_2025\\thuexere\\thuexere\\thuexere\\controllers\\xecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|solutionrelative:thuexere\\controllers\\xecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|d:\\124_nam_2024_2025\\thuexere\\thuexere\\thuexere\\data\\xe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|solutionrelative:thuexere\\data\\xe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|d:\\124_nam_2024_2025\\thuexere\\thuexere\\thuexere\\viewmodel\\xevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|solutionrelative:thuexere\\viewmodel\\xevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|d:\\124_nam_2024_2025\\thuexere\\thuexere\\thuexere\\controllers\\mauxecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|solutionrelative:thuexere\\controllers\\mauxecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|d:\\124_nam_2024_2025\\thuexere\\thuexere\\thuexere\\controllers\\danhmucxecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|solutionrelative:thuexere\\controllers\\danhmucxecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|d:\\124_nam_2024_2025\\thuexere\\thuexere\\thuexere\\viewmodel\\mauxevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|solutionrelative:thuexere\\viewmodel\\mauxevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|d:\\124_nam_2024_2025\\thuexere\\thuexere\\thuexere\\viewmodel\\danhmucxevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|solutionrelative:thuexere\\viewmodel\\danhmucxevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|d:\\124_nam_2024_2025\\thuexere\\thuexere\\thuexere\\data\\mauxe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|solutionrelative:thuexere\\data\\mauxe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|d:\\124_nam_2024_2025\\thuexere\\thuexere\\thuexere\\controllers\\loaixecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|solutionrelative:thuexere\\controllers\\loaixecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|d:\\124_nam_2024_2025\\thuexere\\thuexere\\thuexere\\data\\danhmucxe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|solutionrelative:thuexere\\data\\danhmucxe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|d:\\124_nam_2024_2025\\thuexere\\thuexere\\thuexere\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|solutionrelative:thuexere\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|d:\\124_nam_2024_2025\\thuexere\\thuexere\\thuexere\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|solutionrelative:thuexere\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|d:\\124_nam_2024_2025\\thuexere\\thuexere\\thuexere\\viewmodel\\loaixevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|solutionrelative:thuexere\\viewmodel\\loaixevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|d:\\124_nam_2024_2025\\thuexere\\thuexere\\thuexere\\data\\loaixe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|solutionrelative:thuexere\\data\\loaixe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|d:\\124_nam_2024_2025\\thuexere\\thuexere\\thuexere\\util\\commonutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|solutionrelative:thuexere\\util\\commonutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|d:\\124_nam_2024_2025\\thuexere\\thuexere\\thuexere\\migrations\\20250110142219_mapdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|solutionrelative:thuexere\\migrations\\20250110142219_mapdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|d:\\124_nam_2024_2025\\thuexere\\thuexere\\thuexere\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|solutionrelative:thuexere\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|d:\\124_nam_2024_2025\\thuexere\\thuexere\\thuexere\\data\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|solutionrelative:thuexere\\data\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|d:\\124_nam_2024_2025\\thuexere\\thuexere\\thuexere\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|solutionrelative:thuexere\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|d:\\124_nam_2024_2025\\thuexere\\thuexere\\thuexere\\thuexere.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -37,11 +97,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 19,
               "Title": "WebDbContext.cs",
               "DocumentMoniker": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Data\\WebDbContext.cs",
               "RelativeDocumentMoniker": "THUEXERE\\Data\\WebDbContext.cs",
@@ -50,47 +110,20 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-10T08:03:01.512Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NguoiDung.cs",
-              "DocumentMoniker": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Data\\NguoiDung.cs",
-              "RelativeDocumentMoniker": "THUEXERE\\Data\\NguoiDung.cs",
-              "ToolTip": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Data\\NguoiDung.cs",
-              "RelativeToolTip": "THUEXERE\\Data\\NguoiDung.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "CommonUtils.cs",
+              "DocumentMoniker": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Util\\CommonUtils.cs",
+              "RelativeDocumentMoniker": "THUEXERE\\Util\\CommonUtils.cs",
+              "ToolTip": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Util\\CommonUtils.cs",
+              "RelativeToolTip": "THUEXERE\\Util\\CommonUtils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T14:07:20.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\appsettings.json",
-              "RelativeDocumentMoniker": "THUEXERE\\appsettings.json",
-              "ToolTip": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\appsettings.json",
-              "RelativeToolTip": "THUEXERE\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-10T14:01:39.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Startup.cs",
-              "RelativeDocumentMoniker": "THUEXERE\\Startup.cs",
-              "ToolTip": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Startup.cs",
-              "RelativeToolTip": "THUEXERE\\Startup.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAQwCAAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T08:36:25.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T08:12:32.025Z",
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -134,31 +167,236 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "XeVM.cs",
+              "DocumentMoniker": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\ViewModel\\XeVM.cs",
+              "RelativeDocumentMoniker": "THUEXERE\\ViewModel\\XeVM.cs",
+              "ToolTip": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\ViewModel\\XeVM.cs",
+              "RelativeToolTip": "THUEXERE\\ViewModel\\XeVM.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T06:19:08.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Xe.cs",
+              "DocumentMoniker": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Data\\Xe.cs",
+              "RelativeDocumentMoniker": "THUEXERE\\Data\\Xe.cs",
+              "ToolTip": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Data\\Xe.cs",
+              "RelativeToolTip": "THUEXERE\\Data\\Xe.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA4wBMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T04:28:42.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "XeController.cs",
+              "DocumentMoniker": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Controllers\\XeController.cs",
+              "RelativeDocumentMoniker": "THUEXERE\\Controllers\\XeController.cs",
+              "ToolTip": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Controllers\\XeController.cs*",
+              "RelativeToolTip": "THUEXERE\\Controllers\\XeController.cs*",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAQwIcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T16:49:26.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MauXe.cs",
+              "DocumentMoniker": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Data\\MauXe.cs",
+              "RelativeDocumentMoniker": "THUEXERE\\Data\\MauXe.cs",
+              "ToolTip": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Data\\MauXe.cs",
+              "RelativeToolTip": "THUEXERE\\Data\\MauXe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T15:33:36.341Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "MauXeVM.cs",
+              "DocumentMoniker": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\ViewModel\\MauXeVM.cs",
+              "RelativeDocumentMoniker": "THUEXERE\\ViewModel\\MauXeVM.cs",
+              "ToolTip": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\ViewModel\\MauXeVM.cs",
+              "RelativeToolTip": "THUEXERE\\ViewModel\\MauXeVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T15:33:32.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MauXeController.cs",
+              "DocumentMoniker": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Controllers\\MauXeController.cs",
+              "RelativeDocumentMoniker": "THUEXERE\\Controllers\\MauXeController.cs",
+              "ToolTip": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Controllers\\MauXeController.cs",
+              "RelativeToolTip": "THUEXERE\\Controllers\\MauXeController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAwFsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T15:26:07.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DanhMucXe.cs",
+              "DocumentMoniker": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Data\\DanhMucXe.cs",
+              "RelativeDocumentMoniker": "THUEXERE\\Data\\DanhMucXe.cs",
+              "ToolTip": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Data\\DanhMucXe.cs",
+              "RelativeToolTip": "THUEXERE\\Data\\DanhMucXe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T14:41:57.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DanhMucXeVM.cs",
+              "DocumentMoniker": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\ViewModel\\DanhMucXeVM.cs",
+              "RelativeDocumentMoniker": "THUEXERE\\ViewModel\\DanhMucXeVM.cs",
+              "ToolTip": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\ViewModel\\DanhMucXeVM.cs",
+              "RelativeToolTip": "THUEXERE\\ViewModel\\DanhMucXeVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T14:34:12.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DanhMucXeController.cs",
+              "DocumentMoniker": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Controllers\\DanhMucXeController.cs",
+              "RelativeDocumentMoniker": "THUEXERE\\Controllers\\DanhMucXeController.cs",
+              "ToolTip": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Controllers\\DanhMucXeController.cs",
+              "RelativeToolTip": "THUEXERE\\Controllers\\DanhMucXeController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAQwHEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T13:55:03.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoaiXeVM.cs",
+              "DocumentMoniker": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\ViewModel\\LoaiXeVM.cs",
+              "RelativeDocumentMoniker": "THUEXERE\\ViewModel\\LoaiXeVM.cs",
+              "ToolTip": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\ViewModel\\LoaiXeVM.cs",
+              "RelativeToolTip": "THUEXERE\\ViewModel\\LoaiXeVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T08:47:12.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoaiXe.cs",
+              "DocumentMoniker": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Data\\LoaiXe.cs",
+              "RelativeDocumentMoniker": "THUEXERE\\Data\\LoaiXe.cs",
+              "ToolTip": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Data\\LoaiXe.cs",
+              "RelativeToolTip": "THUEXERE\\Data\\LoaiXe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T08:46:49.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoaiXeController.cs",
+              "DocumentMoniker": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Controllers\\LoaiXeController.cs",
+              "RelativeDocumentMoniker": "THUEXERE\\Controllers\\LoaiXeController.cs",
+              "ToolTip": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Controllers\\LoaiXeController.cs",
+              "RelativeToolTip": "THUEXERE\\Controllers\\LoaiXeController.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAmwLQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T14:58:30.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Program.cs",
+              "RelativeDocumentMoniker": "THUEXERE\\Program.cs",
+              "ToolTip": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Program.cs",
+              "RelativeToolTip": "THUEXERE\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T11:12:03.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250110142219_MapDatabase.cs",
+              "DocumentMoniker": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Migrations\\20250110142219_MapDatabase.cs",
+              "RelativeDocumentMoniker": "THUEXERE\\Migrations\\20250110142219_MapDatabase.cs",
+              "ToolTip": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Migrations\\20250110142219_MapDatabase.cs",
+              "RelativeToolTip": "THUEXERE\\Migrations\\20250110142219_MapDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T14:22:20.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "NguoiDung.cs",
+              "DocumentMoniker": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Data\\NguoiDung.cs",
+              "RelativeDocumentMoniker": "THUEXERE\\Data\\NguoiDung.cs",
+              "ToolTip": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Data\\NguoiDung.cs",
+              "RelativeToolTip": "THUEXERE\\Data\\NguoiDung.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T14:07:20.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\appsettings.json",
+              "RelativeDocumentMoniker": "THUEXERE\\appsettings.json",
+              "ToolTip": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\appsettings.json",
+              "RelativeToolTip": "THUEXERE\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-10T14:01:39.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Startup.cs",
+              "RelativeDocumentMoniker": "THUEXERE\\Startup.cs",
+              "ToolTip": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Startup.cs",
+              "RelativeToolTip": "THUEXERE\\Startup.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T08:36:25.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "Microsoft.PackageDependencyResolution.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "ViewState": "AgIAAOsAAAAAAAAAAAAvwAkBAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-01-10T08:02:43.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T08:02:43.162Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "THUEXERE",
+              "DocumentIndex": 18,
+              "Title": "THUEXERE.csproj",
               "DocumentMoniker": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\THUEXERE.csproj",
               "RelativeDocumentMoniker": "THUEXERE\\THUEXERE.csproj",
               "ToolTip": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\THUEXERE.csproj",
               "RelativeToolTip": "THUEXERE\\THUEXERE.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-10T08:02:30.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T08:02:30.06Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 21,
               "Title": "AnhNoiDung.cs",
               "DocumentMoniker": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Data\\AnhNoiDung.cs",
               "RelativeDocumentMoniker": "THUEXERE\\Data\\AnhNoiDung.cs",
@@ -166,8 +404,7 @@
               "RelativeToolTip": "THUEXERE\\Data\\AnhNoiDung.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T08:01:33.986Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T08:01:33.986Z"
             }
           ]
         },
