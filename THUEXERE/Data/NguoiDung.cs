@@ -21,6 +21,6 @@ namespace WEBAPI.Data
         public string MatKhau { set; get; }
         public string AnhDaiDienUrl {  get; set; }
         public DateTime NgayTao { set; get; }
-        public DateTime NgayCapNhat { set; get; }
+        public DateTime? NgayCapNhat { set; get; } = null;
     }
 }

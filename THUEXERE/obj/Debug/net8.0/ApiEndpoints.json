@@ -222,6 +222,48 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "THUEXERE.Controllers.NguoiDungController",
+    "Method": "AddInfoNguoiDung",
+    "RelativePath": "api/NguoiDung/AddInfoNguoiDung",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NguoiDung",
+        "Type": "THUEXERE.ViewModel.NguoiDungVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.NguoiDungController",
+    "Method": "GetDsNguoiDung",
+    "RelativePath": "api/NguoiDung/GetDsNguoiDung",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.NguoiDungController",
+    "Method": "UpdateInfoNguoiDung",
+    "RelativePath": "api/NguoiDung/UpdateInfoNguoiDung",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NguoiDung",
+        "Type": "THUEXERE.ViewModel.NguoiDungVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "THUEXERE.Controllers.XeController",
     "Method": "AddInfoXe",
     "RelativePath": "api/Xe/AddInfoXe",

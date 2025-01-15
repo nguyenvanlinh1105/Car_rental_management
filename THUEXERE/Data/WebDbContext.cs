@@ -25,7 +25,7 @@ namespace WEBAPI.Data
         public DbSet<MauXe> MauXes { get; set; }
         public DbSet<Xe> Xes { get; set; }
         public DbSet<VaiTro> VaiTros { get; set; }
-        public DbSet<NguoiDung> NguoiTros { get; set; }
+        public DbSet<NguoiDung> NguoiDungs { get; set; }
         public DbSet<VaiTro_NguoiDung> VaiTro_NguoiDungs { get; set; }
         public DbSet<DichVu> DichVus { get; set; }
         public DbSet<DonThue> DonThues {  get; set; }
