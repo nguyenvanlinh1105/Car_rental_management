@@ -20,7 +20,7 @@ namespace WEBAPI.Data
         public string PTThanhToan { set; get; }
         public string TinhTrangDon {  set; get; }
         public float TongTien {  set; get; }
-        public DateTime NgayTao { set; get; }
+        public DateTime? NgayTao { set; get; }
 
         public ICollection<GopY> gopYs { get; set; }
         public ICollection<ChiTietDonThue> chiTietDonThues { get; set; }

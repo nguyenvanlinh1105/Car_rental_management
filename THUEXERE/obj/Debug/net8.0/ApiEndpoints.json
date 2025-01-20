@@ -1,5 +1,63 @@
 [
   {
+    "ContainingType": "THUEXERE.Controllers.ChiTietDonThueController",
+    "Method": "GetChiTietDonThueByMaCTDT",
+    "RelativePath": "api/ChiTietDonThue/GetChiTietDonThueByMaCTDT",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MaCTDT",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.ChiTietDonThueController",
+    "Method": "GetDsChiTietDonThue",
+    "RelativePath": "api/ChiTietDonThue/GetDsChiTietDonThue",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.ChiTietDonThueController",
+    "Method": "GetDsDonThueByMaDT",
+    "RelativePath": "api/ChiTietDonThue/GetDsDonThueByMaDT",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MaDT",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.ChiTietDonThueController",
+    "Method": "UpdateInfoChiTietDonThue",
+    "RelativePath": "api/ChiTietDonThue/UpdateInfoChiTietDonThue",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "chiTietDonThueVM",
+        "Type": "THUEXERE.ViewModel.ChiTietDonThueVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "THUEXERE.Controllers.DanhMucXeController",
     "Method": "AddDanhMucXe",
     "RelativePath": "api/DanhMucXe/AddDanhMucXe",
@@ -84,6 +142,143 @@
       {
         "Name": "danhMucXe",
         "Type": "THUEXERE.ViewModel.DanhMucXeVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.DichVuController",
+    "Method": "AddInfoDichVu",
+    "RelativePath": "api/DichVu/AddInfoDichVu",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dichVu",
+        "Type": "THUEXERE.ViewModel.DichVuVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.DichVuController",
+    "Method": "FindDichVuByMaDichVu",
+    "RelativePath": "api/DichVu/FindDichVuByMaDichVu",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MaDichVu",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.DichVuController",
+    "Method": "FindDichVuFromToPrice",
+    "RelativePath": "api/DichVu/FindDichVuFromToPrice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fromPrice",
+        "Type": "System.Nullable\u00601[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "toPrice",
+        "Type": "System.Nullable\u00601[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.DichVuController",
+    "Method": "GetDsDichVu",
+    "RelativePath": "api/DichVu/GetDsDichVu",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.DichVuController",
+    "Method": "UpdateInfoDichVu",
+    "RelativePath": "api/DichVu/UpdateInfoDichVu",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dichVu",
+        "Type": "THUEXERE.ViewModel.DichVuVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.DichVuController",
+    "Method": "UpdatTrangThaiHoatDongDichVu",
+    "RelativePath": "api/DichVu/UpdatTrangThaiHoatDongDichVu",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dichVuVM",
+        "Type": "THUEXERE.ViewModel.DichVuVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.DonThueController",
+    "Method": "AddInfoDonThue",
+    "RelativePath": "api/DonThue/AddInfoDonThue",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "donThueVM",
+        "Type": "THUEXERE.ViewModel.DonThueVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.DonThueController",
+    "Method": "GetDsDonThue",
+    "RelativePath": "api/DonThue/GetDsDonThue",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.DonThueController",
+    "Method": "UpdateInfoDonThue",
+    "RelativePath": "api/DonThue/UpdateInfoDonThue",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "donThueVM",
+        "Type": "THUEXERE.ViewModel.DonThueVM",
         "IsRequired": true
       }
     ],
@@ -258,6 +453,64 @@
       {
         "Name": "NguoiDung",
         "Type": "THUEXERE.ViewModel.NguoiDungVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.NguoiDungController",
+    "Method": "UpdateTrangThaiHoatDong",
+    "RelativePath": "api/NguoiDung/UpdateTrangThaiHoatDong",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NguoiDung",
+        "Type": "THUEXERE.ViewModel.NguoiDungVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.VaiTroController",
+    "Method": "AddVaiTroNguoiDung",
+    "RelativePath": "api/VaiTro/AddVaiTroNguoiDung",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vaiTroVM",
+        "Type": "THUEXERE.ViewModel.VaiTroVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.VaiTroController",
+    "Method": "GetDsVaiTro",
+    "RelativePath": "api/VaiTro/GetDsVaiTroNguoiDung",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.VaiTroController",
+    "Method": "UpdateINfoVaiTroNguoidung",
+    "RelativePath": "api/VaiTro/UpdateINfoVaiTroNguoidung",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vaiTroVM",
+        "Type": "THUEXERE.ViewModel.VaiTroVM",
         "IsRequired": true
       }
     ],

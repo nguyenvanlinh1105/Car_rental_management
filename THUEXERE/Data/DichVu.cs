@@ -13,7 +13,7 @@ namespace WEBAPI.Data
         public string AnhMinhHoaUrl {  set; get; }
         public string MoTa { set; get; }
         public string TinhTrang { set; get; }
-        public float DonGia {  set; get; }
+        public double DonGia {  set; get; }
         public int SoLuong {  set; get; }
         public string HinhThuc {  set; get; }
         public string DonVi { set; get; }

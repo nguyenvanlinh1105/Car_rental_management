@@ -1,0 +1,1468 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "THUEXERE",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/ChiTietDonThue/GetDsChiTietDonThue": {
+      "get": {
+        "tags": [
+          "ChiTietDonThue"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ChiTietDonThue/GetDsDonThueByMaDT": {
+      "get": {
+        "tags": [
+          "ChiTietDonThue"
+        ],
+        "parameters": [
+          {
+            "name": "MaDT",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ChiTietDonThue/GetChiTietDonThueByMaCTDT": {
+      "get": {
+        "tags": [
+          "ChiTietDonThue"
+        ],
+        "parameters": [
+          {
+            "name": "MaCTDT",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ChiTietDonThue/UpdateInfoChiTietDonThue": {
+      "put": {
+        "tags": [
+          "ChiTietDonThue"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChiTietDonThueVM"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChiTietDonThueVM"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChiTietDonThueVM"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DanhMucXe/GetDsDanhMucXe": {
+      "get": {
+        "tags": [
+          "DanhMucXe"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DanhMucXe/GetDsDanhMucXeById": {
+      "get": {
+        "tags": [
+          "DanhMucXe"
+        ],
+        "parameters": [
+          {
+            "name": "IdDanhMuc",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DanhMucXe/GetDsDanhMucByTenXe": {
+      "get": {
+        "tags": [
+          "DanhMucXe"
+        ],
+        "parameters": [
+          {
+            "name": "TenXe",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DanhMucXe/GetDsXeByIdDanhMucXe": {
+      "get": {
+        "tags": [
+          "DanhMucXe"
+        ],
+        "parameters": [
+          {
+            "name": "idDanhMuc",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DanhMucXe/AddDanhMucXe": {
+      "post": {
+        "tags": [
+          "DanhMucXe"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DanhMucXeVM"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DanhMucXeVM"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DanhMucXeVM"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DanhMucXe/UpdateInfoDanhMucXe": {
+      "put": {
+        "tags": [
+          "DanhMucXe"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DanhMucXeVM"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DanhMucXeVM"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DanhMucXeVM"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DichVu/GetDsDichVu": {
+      "get": {
+        "tags": [
+          "DichVu"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DichVu/FindDichVuByMaDichVu": {
+      "get": {
+        "tags": [
+          "DichVu"
+        ],
+        "parameters": [
+          {
+            "name": "MaDichVu",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DichVu/FindDichVuFromToPrice": {
+      "get": {
+        "tags": [
+          "DichVu"
+        ],
+        "parameters": [
+          {
+            "name": "fromPrice",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double",
+              "nullable": true
+            }
+          },
+          {
+            "name": "toPrice",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DichVu/AddInfoDichVu": {
+      "post": {
+        "tags": [
+          "DichVu"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DichVuVM"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DichVuVM"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DichVuVM"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DichVu/UpdateInfoDichVu": {
+      "put": {
+        "tags": [
+          "DichVu"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DichVuVM"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DichVuVM"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DichVuVM"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DichVu/UpdatTrangThaiHoatDongDichVu": {
+      "put": {
+        "tags": [
+          "DichVu"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DichVuVM"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DichVuVM"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DichVuVM"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DonThue/GetDsDonThue": {
+      "get": {
+        "tags": [
+          "DonThue"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DonThue/UpdateInfoDonThue": {
+      "put": {
+        "tags": [
+          "DonThue"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DonThueVM"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DonThueVM"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DonThueVM"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DonThue/AddInfoDonThue": {
+      "post": {
+        "tags": [
+          "DonThue"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DonThueVM"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DonThueVM"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DonThueVM"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/LoaiXe": {
+      "get": {
+        "tags": [
+          "LoaiXe"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/LoaiXe/GetLoaiXeByID/{IdLoaiXe}": {
+      "get": {
+        "tags": [
+          "LoaiXe"
+        ],
+        "parameters": [
+          {
+            "name": "IdLoaiXe",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/LoaiXe/GetDsXeByIdLoaiXe": {
+      "get": {
+        "tags": [
+          "LoaiXe"
+        ],
+        "parameters": [
+          {
+            "name": "IdLoaiXe",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/LoaiXe/AddLoaiXe": {
+      "post": {
+        "tags": [
+          "LoaiXe"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoaiXeVM"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoaiXeVM"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoaiXeVM"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/LoaiXe/UpdateInfoLoaiXe": {
+      "put": {
+        "tags": [
+          "LoaiXe"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoaiXe"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoaiXe"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoaiXe"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/LoaiXe/GetLoaiXeByLoaiXe": {
+      "get": {
+        "tags": [
+          "LoaiXe"
+        ],
+        "parameters": [
+          {
+            "name": "tenloaiXe",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/MauXe/GetDsMauXe": {
+      "get": {
+        "tags": [
+          "MauXe"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/MauXe/AddMauXe": {
+      "post": {
+        "tags": [
+          "MauXe"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MauXeVM"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MauXeVM"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MauXeVM"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/MauXe/UpdateInfoMauXe": {
+      "put": {
+        "tags": [
+          "MauXe"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MauXeVM"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MauXeVM"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MauXeVM"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/NguoiDung/GetDsNguoiDung": {
+      "get": {
+        "tags": [
+          "NguoiDung"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/NguoiDung/AddInfoNguoiDung": {
+      "post": {
+        "tags": [
+          "NguoiDung"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NguoiDungVM"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NguoiDungVM"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/NguoiDungVM"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/NguoiDung/UpdateInfoNguoiDung": {
+      "put": {
+        "tags": [
+          "NguoiDung"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NguoiDungVM"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NguoiDungVM"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/NguoiDungVM"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/NguoiDung/UpdateTrangThaiHoatDong": {
+      "put": {
+        "tags": [
+          "NguoiDung"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NguoiDungVM"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NguoiDungVM"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/NguoiDungVM"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/VaiTro/GetDsVaiTroNguoiDung": {
+      "get": {
+        "tags": [
+          "VaiTro"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/VaiTro/AddVaiTroNguoiDung": {
+      "post": {
+        "tags": [
+          "VaiTro"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VaiTroVM"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VaiTroVM"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/VaiTroVM"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/VaiTro/UpdateINfoVaiTroNguoidung": {
+      "put": {
+        "tags": [
+          "VaiTro"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VaiTroVM"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VaiTroVM"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/VaiTroVM"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Xe/GetDsXe": {
+      "get": {
+        "tags": [
+          "Xe"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Xe/GetInfoXeByMaXe": {
+      "get": {
+        "tags": [
+          "Xe"
+        ],
+        "parameters": [
+          {
+            "name": "MaXe",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Xe/GetInfoXeByTenXe": {
+      "get": {
+        "tags": [
+          "Xe"
+        ],
+        "parameters": [
+          {
+            "name": "TenXe",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Xe/AddInfoXe": {
+      "post": {
+        "tags": [
+          "Xe"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/XeVM"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/XeVM"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/XeVM"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Xe/UpdateInfoXe": {
+      "put": {
+        "tags": [
+          "Xe"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/XeVM"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/XeVM"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/XeVM"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ChiTietDonThueVM": {
+        "type": "object",
+        "properties": {
+          "maCTDT": {
+            "type": "string",
+            "nullable": true
+          },
+          "maDT": {
+            "type": "string",
+            "nullable": true
+          },
+          "maXe": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngayNhan": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "ngayTra": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "tienCocGuiXe": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "tienCocXe": {
+            "type": "number",
+            "format": "double"
+          },
+          "thanhTien": {
+            "type": "number",
+            "format": "double"
+          },
+          "trangThai": {
+            "type": "string",
+            "nullable": true
+          },
+          "ptThanhToan": {
+            "type": "string",
+            "nullable": true
+          },
+          "tinhTrangBanGiao": {
+            "type": "string",
+            "nullable": true
+          },
+          "anhMinhChungURL": {
+            "type": "string",
+            "nullable": true
+          },
+          "noiNhan": {
+            "type": "string",
+            "nullable": true
+          },
+          "noiTra": {
+            "type": "string",
+            "nullable": true
+          },
+          "giaHan": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ngayGiaHan": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DanhMucXeVM": {
+        "type": "object",
+        "properties": {
+          "idDanhMuc": {
+            "type": "string",
+            "nullable": true
+          },
+          "tenXe": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DichVuVM": {
+        "type": "object",
+        "properties": {
+          "maDV": {
+            "type": "string",
+            "nullable": true
+          },
+          "tenDV": {
+            "type": "string",
+            "nullable": true
+          },
+          "anhMinhHoaUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "moTa": {
+            "type": "string",
+            "nullable": true
+          },
+          "tinhTrang": {
+            "type": "string",
+            "nullable": true
+          },
+          "donGia": {
+            "type": "number",
+            "format": "double"
+          },
+          "soLuong": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "hinhThuc": {
+            "type": "string",
+            "nullable": true
+          },
+          "donVi": {
+            "type": "string",
+            "nullable": true
+          },
+          "loai": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DonThueVM": {
+        "type": "object",
+        "properties": {
+          "maDT": {
+            "type": "string",
+            "nullable": true
+          },
+          "maKH": {
+            "type": "string",
+            "nullable": true
+          },
+          "maNVHT": {
+            "type": "string",
+            "nullable": true
+          },
+          "ptThanhToan": {
+            "type": "string",
+            "nullable": true
+          },
+          "tinhTrangDon": {
+            "type": "string",
+            "nullable": true
+          },
+          "tongTien": {
+            "type": "number",
+            "format": "float"
+          },
+          "ngayTao": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "chiTietDonThues": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ChiTietDonThueVM"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoaiXeVM": {
+        "type": "object",
+        "properties": {
+          "idLoaiXe": {
+            "type": "string",
+            "nullable": true
+          },
+          "loaiXe": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DanhMucXe": {
+        "type": "object",
+        "properties": {
+          "idDanhMuc": {
+            "maxLength": 7,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "tenXe": {
+            "maxLength": 255,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "xes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Xe"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MauXe": {
+        "type": "object",
+        "properties": {
+          "idMauXe": {
+            "maxLength": 7,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "mauXe": {
+            "maxLength": 255,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "xes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Xe"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Xe": {
+        "type": "object",
+        "properties": {
+          "maXe": {
+            "maxLength": 7,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "idDanhMuc": {
+            "maxLength": 7,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "danhMucXe": {
+            "$ref": "#/components/schemas/DanhMucXe"
+          },
+          "idLoaiXe": {
+            "maxLength": 7,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "loaiXe": {
+            "$ref": "#/components/schemas/LoaiXe"
+          },
+          "idMauXe": {
+            "maxLength": 7,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "mauXe": {
+            "$ref": "#/components/schemas/MauXe"
+          },
+          "tinhTrang": {
+            "type": "string",
+            "nullable": true
+          },
+          "moTa": {
+            "type": "string",
+            "nullable": true
+          },
+          "soKhung": {
+            "type": "string",
+            "nullable": true
+          },
+          "khoiLuong": {
+            "type": "string",
+            "nullable": true
+          },
+          "namSX": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "hinhAnh": {
+            "type": "string",
+            "nullable": true
+          },
+          "bienSo": {
+            "type": "string",
+            "nullable": true
+          },
+          "congSuat": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoaiXe": {
+        "type": "object",
+        "properties": {
+          "idLoaiXe": {
+            "maxLength": 7,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "loaiXe": {
+            "maxLength": 255,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "xes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Xe"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MauXeVM": {
+        "type": "object",
+        "properties": {
+          "idMauXe": {
+            "type": "string",
+            "nullable": true
+          },
+          "mauXe": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "NguoiDungVM": {
+        "type": "object",
+        "properties": {
+          "maND": {
+            "type": "string",
+            "nullable": true
+          },
+          "hoTen": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngaySinh": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "sdt": {
+            "type": "string",
+            "nullable": true
+          },
+          "cccd": {
+            "type": "string",
+            "nullable": true
+          },
+          "gioiTinh": {
+            "type": "string",
+            "nullable": true
+          },
+          "diaChi": {
+            "type": "string",
+            "nullable": true
+          },
+          "tinhTrang": {
+            "type": "string",
+            "nullable": true
+          },
+          "matKhau": {
+            "type": "string",
+            "nullable": true
+          },
+          "anhDaiDienUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngayTao": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "ngayCapNhat": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "typeNguoiDung": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "VaiTroVM": {
+        "type": "object",
+        "properties": {
+          "maVT": {
+            "type": "string",
+            "nullable": true
+          },
+          "tenVT": {
+            "type": "string",
+            "nullable": true
+          },
+          "moTa": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "XeVM": {
+        "type": "object",
+        "properties": {
+          "maXe": {
+            "type": "string",
+            "nullable": true
+          },
+          "idDanhMuc": {
+            "type": "string",
+            "nullable": true
+          },
+          "idLoaiXe": {
+            "type": "string",
+            "nullable": true
+          },
+          "idMauXe": {
+            "type": "string",
+            "nullable": true
+          },
+          "tinhTrang": {
+            "type": "string",
+            "nullable": true
+          },
+          "moTa": {
+            "type": "string",
+            "nullable": true
+          },
+          "soKhung": {
+            "type": "string",
+            "nullable": true
+          },
+          "khoiLuong": {
+            "type": "string",
+            "nullable": true
+          },
+          "namSX": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "hinhAnh": {
+            "type": "string",
+            "nullable": true
+          },
+          "bienSo": {
+            "type": "string",
+            "nullable": true
+          },
+          "congSuat": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

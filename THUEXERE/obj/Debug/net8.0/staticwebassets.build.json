@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "uqnKdXJCP+9dlwVg+nx3cmDm3ZVppPkL4OHDQgqeyVM=",
+  "Hash": "U8vePLhpZcitEzg/fHhXx/DE5/Z+ZGBXRT/nB04CEeM=",
   "Source": "THUEXERE",
   "BasePath": "_content/THUEXERE",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

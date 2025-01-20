@@ -39,7 +39,7 @@ namespace THUEXERE.Controllers
             }
             else
             {
-                if (NguoiDung.HoTen == null || NguoiDung.Email == null|| NguoiDung.MatKhau == null || NguoiDung.GioiTinh == null)
+                if (NguoiDung.HoTen == null || NguoiDung.Email == null||NguoiDung.NgaySinh==null|| NguoiDung.MatKhau == null || NguoiDung.GioiTinh == null)
                 {
                     return BadRequest("Vui lòng nhập đủ họ tên, email, mật khẩu, ngày sinh, giới tính");
                 }
@@ -192,10 +192,14 @@ namespace THUEXERE.Controllers
             }
             else
             {
+                if (NguoiDung.HoTen == null || NguoiDung.Email == null || NguoiDung.NgaySinh == null || NguoiDung.MatKhau == null || NguoiDung.GioiTinh == null)
+                {
+                    return StatusCode(500,"Vui lòng nhập đủ họ tên, email, mật khẩu, ngày sinh, giới tính");
+                }
                 var findNguoiDung = context.NguoiDungs.FirstOrDefault(nd=>nd.MaND== NguoiDung.MaND);
                 if(findNguoiDung == null)
                 {
-                    return BadRequest("Không có người dùng nào được tìm thấy với mã người dùng: " + NguoiDung.MaND);
+                    return StatusCode(400,"Không có người dùng nào được tìm thấy với mã người dùng: " + NguoiDung.MaND);
                 }
                 findNguoiDung.HoTen = NguoiDung.HoTen;
                 findNguoiDung.NgaySinh = NguoiDung.NgaySinh;
@@ -207,7 +211,7 @@ namespace THUEXERE.Controllers
                 findNguoiDung.TinhTrang = NguoiDung.TinhTrang;
                 findNguoiDung.MatKhau = NguoiDung.MatKhau;
                 findNguoiDung.AnhDaiDienUrl = NguoiDung.AnhDaiDienUrl;
-               // findNguoiDung.NgayCapNhat = DateTime.Today;
+                findNguoiDung.NgayCapNhat = DateTime.Now;
 
                 try
                 {
@@ -220,7 +224,49 @@ namespace THUEXERE.Controllers
                 }
             }
         }
-        
+
+        // Cập nhật tình trạng hoạt động của người dùng 
+        [HttpPut("UpdateTrangThaiHoatDong")]
+        public async Task<IActionResult> UpdateTrangThaiHoatDong(NguoiDungVM NguoiDung)
+        {
+            if (NguoiDung == null)
+            {
+                return StatusCode(400, "Dữ liệu người dùng không hợp lệ");
+            }
+            else
+            {
+                var findNguoiDung=  context.NguoiDungs.FirstOrDefault(nd => nd.MaND == NguoiDung.MaND);
+                if (findNguoiDung == null)
+                {
+                    return StatusCode(400, "Không có người dùng nào được tìm thấy với mã người dùng:" + NguoiDung.MaND);
+                }
+                if (NguoiDung.TinhTrang == null)  
+                {
+                    return StatusCode(400, "Vui lòng set tình trạng hoạt động cho người dùng: "+NguoiDung.MaND);
+                }
+                if (NguoiDung.TinhTrang=="Hoạt động")
+                {
+                    findNguoiDung.TinhTrang = "Hoạt động";
+                }
+                else
+                {
+                    findNguoiDung.TinhTrang = "Ngưng hoạt động";
+                }
+                try
+                {
+                    await context.SaveChangesAsync();
+                    return Ok(findNguoiDung);
+                }
+                catch (Exception ex)
+                {
+                    return StatusCode(500, "Lỗi: " + ex.Message);
+                }
+
+            }
+        }
+       
+
+
 
     }
 }

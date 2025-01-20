@@ -135,3 +135,7 @@ D:\124_Nam_2024_2025\THUEXERE\THUEXERE\THUEXERE\obj\Debug\net8.0\THUEXERE.pdb
 D:\124_Nam_2024_2025\THUEXERE\THUEXERE\THUEXERE\obj\Debug\net8.0\THUEXERE.genruntimeconfig.cache
 D:\124_Nam_2024_2025\THUEXERE\THUEXERE\THUEXERE\obj\Debug\net8.0\ref\THUEXERE.dll
 D:\124_Nam_2024_2025\THUEXERE\THUEXERE\THUEXERE\obj\Debug\net8.0\THUEXERE.sourcelink.json
+D:\124_Nam_2024_2025\THUEXERE\THUEXERE\THUEXERE\bin\Debug\net8.0\THUEXERE.staticwebassets.endpoints.json
+D:\124_Nam_2024_2025\THUEXERE\THUEXERE\THUEXERE\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\124_Nam_2024_2025\THUEXERE\THUEXERE\THUEXERE\obj\Debug\net8.0\staticwebassets\msbuild.THUEXERE.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\124_Nam_2024_2025\THUEXERE\THUEXERE\THUEXERE\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
