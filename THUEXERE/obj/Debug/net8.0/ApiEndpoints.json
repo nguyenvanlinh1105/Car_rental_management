@@ -1,5 +1,15 @@
 [
   {
+    "ContainingType": "THUEXERE.Controllers.BaiVietController",
+    "Method": "GetDsBaiViet",
+    "RelativePath": "api/BaiViet",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "THUEXERE.Controllers.ChiTietDonThueController",
     "Method": "GetChiTietDonThueByMaCTDT",
     "RelativePath": "api/ChiTietDonThue/GetChiTietDonThueByMaCTDT",
@@ -285,6 +295,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "THUEXERE.Controllers.GopYController",
+    "Method": "GetDsGopY",
+    "RelativePath": "api/GopY",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "THUEXERE.Controllers.LoaiXeController",
     "Method": "GetDSLoaiXe",
     "RelativePath": "api/LoaiXe",
@@ -472,6 +492,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "THUEXERE.Controllers.NoiDungController",
+    "Method": "GetDsNoiDung",
+    "RelativePath": "api/NoiDung",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

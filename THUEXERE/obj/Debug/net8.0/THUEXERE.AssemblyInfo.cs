@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("THUEXERE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac48a2239e2f89450cc8d31bbbb12472de797183")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1dd42d502d052722d5551a9f271b7390499c17eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("THUEXERE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("THUEXERE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -5,6 +5,18 @@
     "version": "v1"
   },
   "paths": {
+    "/api/BaiViet": {
+      "get": {
+        "tags": [
+          "BaiViet"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/ChiTietDonThue/GetDsChiTietDonThue": {
       "get": {
         "tags": [
@@ -465,6 +477,18 @@
         }
       }
     },
+    "/api/GopY": {
+      "get": {
+        "tags": [
+          "GopY"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/LoaiXe": {
       "get": {
         "tags": [
@@ -778,6 +802,18 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/NoiDung": {
+      "get": {
+        "tags": [
+          "NoiDung"
+        ],
         "responses": {
           "200": {
             "description": "Success"

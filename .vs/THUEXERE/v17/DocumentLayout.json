@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|d:\\124_nam_2024_2025\\thuexere\\thuexere\\thuexere\\controllers\\noidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|solutionrelative:thuexere\\controllers\\noidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|d:\\124_nam_2024_2025\\thuexere\\thuexere\\thuexere\\controllers\\baivietcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|solutionrelative:thuexere\\controllers\\baivietcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|d:\\124_nam_2024_2025\\thuexere\\thuexere\\thuexere\\controllers\\gopycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|solutionrelative:thuexere\\controllers\\gopycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|d:\\124_nam_2024_2025\\thuexere\\thuexere\\thuexere\\controllers\\donthuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E676C719-ABCD-443E-A8A0-603035B7EAA1}|THUEXERE\\THUEXERE.csproj|solutionrelative:thuexere\\controllers\\donthuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -59,12 +71,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "NoiDungController.cs",
+              "DocumentMoniker": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Controllers\\NoiDungController.cs",
+              "RelativeDocumentMoniker": "THUEXERE\\Controllers\\NoiDungController.cs",
+              "ToolTip": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Controllers\\NoiDungController.cs",
+              "RelativeToolTip": "THUEXERE\\Controllers\\NoiDungController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T09:00:59.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaiVietController.cs",
+              "DocumentMoniker": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Controllers\\BaiVietController.cs",
+              "RelativeDocumentMoniker": "THUEXERE\\Controllers\\BaiVietController.cs",
+              "ToolTip": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Controllers\\BaiVietController.cs",
+              "RelativeToolTip": "THUEXERE\\Controllers\\BaiVietController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T08:54:15.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GopYController.cs",
+              "DocumentMoniker": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Controllers\\GopYController.cs",
+              "RelativeDocumentMoniker": "THUEXERE\\Controllers\\GopYController.cs",
+              "ToolTip": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Controllers\\GopYController.cs",
+              "RelativeToolTip": "THUEXERE\\Controllers\\GopYController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAowBUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T08:43:26.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "DonThueController.cs",
               "DocumentMoniker": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Controllers\\DonThueController.cs",
               "RelativeDocumentMoniker": "THUEXERE\\Controllers\\DonThueController.cs",
               "ToolTip": "D:\\124_Nam_2024_2025\\THUEXERE\\THUEXERE\\THUEXERE\\Controllers\\DonThueController.cs",
               "RelativeToolTip": "THUEXERE\\Controllers\\DonThueController.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T05:48:00.761Z",
               "EditorCaption": ""
